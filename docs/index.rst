@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Gauss6500 机械臂开发文档
+Gauss6 机械臂开发文档
 ========================================
 
 **欢迎使用 Gauss 机械臂！**
