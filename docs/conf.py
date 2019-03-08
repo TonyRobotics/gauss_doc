@@ -51,7 +51,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'Gauss6500 机械臂开发文档'
+project = u'Gauss6 机械臂开发文档'
 copyright = u'2018, Tonyrobotics'
 author = u'Tonyrobotics'
 
