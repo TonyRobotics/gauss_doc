@@ -1,0 +1,35 @@
+Search.setIndex({docnames:["_source/gauss6_move_api","_source/gauss6_tool_api","_source/gauss_msgs_def","_source/gauss_other_api","_source/gauss_robot_state_api","_source/gauss_ros_api","_source/network_config","index"],envversion:{"sphinx.domains.c":1,"sphinx.domains.changeset":1,"sphinx.domains.cpp":1,"sphinx.domains.javascript":1,"sphinx.domains.math":2,"sphinx.domains.python":1,"sphinx.domains.rst":1,"sphinx.domains.std":1,sphinx:54},filenames:["_source/gauss6_move_api.md","_source/gauss6_tool_api.md","_source/gauss_msgs_def.md","_source/gauss_other_api.md","_source/gauss_robot_state_api.md","_source/gauss_ros_api.md","_source/network_config.md","index.rst"],objects:{},objnames:{},objtypes:{},terms:{"0.":6,"10 ":[0,2],"1023\n":1,"10\n":1,"11311\n":6,"116":6,"116:":6,"11\n":1,"120":6,"128\n":1,"12\n":1,"13\n":1,"160\n":1,"168.":6,"192.":6,"1\"":1,"1\n":[0,1,2],"20\n":1,"21\n":1,"220\n":1,"22\n":1,"2\"":1,"2\n":[0,1,2],"3 ":2,"300 ":1,"300\n":1,"30\n":1,"31\n":1,"32\n":1,"33\n":1,"350\n":1,"3\"":1,"3\n":[0,2],"400\n":1,"404\n":1,"450\n":1,"4\n":[0,2],"5\n":[0,2],"600\n":1,"640\n":1,"6\n":[0,2],"7\n":[0,2],"8\n":[0,2],"9\n":[0,2],"\u4e3a ":1,"\u4e3a:":6,"\u4e5f\u53ef\u4ee5\u901a\u8fc7pc":6,"\u4fee\u6539 ":6,"\u5047\u8bbe\u673a\u68b0\u81c2\u7684 ":6,"\u5177\u4f53\u4f7f\u7528\u8bf7\u53c2\u8003 ":0,"\u5219\u9700\u8981\u914d\u7f6epc":6,"\u548c ":0,"\u5728 ":6,"\u5728pc":6,"\u5982\u9700\u8981pc":6,"\u63a5\u53e3\u5185\u5bb9:":4,"\u63a5\u53e3\u7c7b\u578b:":4,"\u66f4\u6362ompl":0,"\u6700\u540e\u5728\u673a\u68b0\u81c2\u4e0a\u542f\u52a8ro":6,"\u6b22\u8fce\u4f7f\u7528 ":7,"\u7136\u540e\u91cd\u65b0\u542f\u52a8ro":6,"\u7684cmd":2,"\u76ee\u5f55\u4e0b\u7684 ":0,"\u76f4\u63a5\u901a\u8fc7\u672c\u673assh ":6,"\u8003\u8651\u662f\u5426\u9700\u8981\u66f4\u6362moveit":0,"\u8bf7\u5728 ":1,"\u90a3\u4e48\u9700\u8981\u628a\u673a\u68b0\u81c2\u7684\u6240\u6709\u8282\u70b9\u90fd ":6,"\u914d\u7f6e\u6587\u4ef6\u5728 ":0,"\uff53td":5,"a ":2,"action ":1,"activate_digital_io:":1,"allow ":2,"an ":2,"api.":[0,1],"api/":[0,1],"arm ":2,"as ":2,"at ":2,"available_commands:":1,"be ":2,"bitbucket.":0,"bool ":2,"by ":[1,2],"choices ":2,"close_gripper:":1,"close_hold_torque:":1,"close_max_torque:":1,"close_position:":1,"close_speed:":1,"code ":0,"command ":2,"command_list:":1,"commander/":[0,1,5],"controlled ":1,"dc ":1,"dc_motor\"":1,"deactivate_digital_io:":1,"digital ":[1,2],"documentation/":0,"echo ":6,"effectors.":1,"electromagnet ":[1,2],"electromagnet)":2,"electromagnet\"":1,"execute_traj ":[0,2],"export ":6,"float64[":2,"future,":2,"gauss ":7,"gauss-":6,"gauss/":[0,1,3,4,5,6],"gauss_msgs/":2,"geometry_msgs/":2,"gripper ":[1,2],"gripper\"":1,"head/":0,"http:":6,"https:":0,"i/":1,"id:":1,"if ":2,"ik/":0,"in ":2,"int32 ":2,"io ":1,"ip ":6,"is ":2,"joints ":[0,2],"kill ":6,"laser ":1,"laser\"":1,"launched ":2,"motor ":1,"move_joint.":0,"move_pose.":0,"moveit.":0,"msgs/":[4,5],"name:":1,"new":5,"only,":2,"open_gripper:":1,"open_hold_torque:":1,"open_position:":1,"open_speed:":1,"or ":2,"org/":0,"outputs ":2,"pc ":6,"pc\u673a\u7684 ":6,"planners/":0,"planning.":0,"plugin/":0,"point ":2,"pose ":[0,2],"pose_quat ":[0,2],"position ":[0,2],"pull_air_vacuum_pump:":1,"pump ":[1,2],"push_air_vacuum_pump:":1,"robotmoveaction ":2,"robotmovecommand ":2,"robotstate ":2,"ros ":[0,1,4,7],"ros-":6,"ros.":0,"ros_hostname=":6,"ros_master_uri=":6,"rosnode ":6,"rostopic ":6,"rpy ":[0,2],"same ":2,"saved_position ":[0,2],"saved_trajectory ":[0,2],"saved_trajectory_id ":2,"set ":2,"setup_digital_io:":1,"shift_pose ":[0,2],"shiftpose ":2,"source ":6,"specs:":1,"src/":[0,1],"srvs/":5,"string ":2,"studio ":1,"the ":2,"time ":2,"to ":2,"tool ":[0,1,2],"tool,":2,"tool_list:":1,"toolcommand ":2,"tools ":1,"tools/":1,"traclabs/":0,"trajectoryplan ":2,"type:":[1,2],"uint16 ":2,"uint8 ":2,"use_tool ":2,"vacuum ":[1,2],"vacuum_pump\"":1,"vacuump ":1,"yaml ":1,action:[0,1],activ:5,activate
+:2,activate_digital_io
+:1,air:1,bashrc:6,bool:5,calibr:[3,5],chang:[1,5],close
+:2,close:1,close_gripper
+:1,cmd
+:2,cmd_type
+:2,command
+:2,command:5,current:1,dcmotor:1,deactivate_digital_io
+:1,digit:1,electromagnet:1,end:1,feedback
+:2,gauss:[0,1,4,5],goal
+:2,gpio:2,gripper
+:1,gripper:1,gripper_close_speed
+:2,gripper_open_speed
+:2,grove
+:2,hardwar:5,hardwarestatu:5,id:1,ik:0,ikfast:0,joint:[4,5],joints
+:2,jointstat:[4,5],kinemat:0,laser:1,learn:5,message
+:2,mode:5,motor:[3,5],move:0,ompl:0,only
+:2,open
+:2,open:1,open_gripper
+:1,os
+:1,pose:0,pose_quat
+:2,posit:0,position
+:2,pull_air_vacuum_pump
+:1,pump
+:1,push_air_vacuum_pump
+:1,py:[0,1],python:[0,1],request:5,result
+:2,ro:5,robot:[0,1,4,5],robot_st:6,robotmoveact:[0,1,5],robotst:[4,5],rpy
+:2,rpy:[0,2],saved_position_name
+:2,sensor:[4,5],setbool:5,setint:5,setup_digital_io
+:1,shift
+:2,shift:0,start:6,state:[2,4,5],statu:5,status
+:2,std:5,stop:5,tool:[1,5],tool_cmd
+:2,tool_id
+:2,topic:[4,5],trac:0,trajectory
+:2,vacuum:1,yaml:0},titles:["\u8fd0\u52a8\u89c4\u5212\u63a5\u53e3","\u5de5\u5177\u63a7\u5236\u63a5\u53e3","\u81ea\u5b9a\u4e49\u6d88\u606f","\u5176\u4ed6\u63a5\u53e3","\u72b6\u6001\u67e5\u770b\u63a5\u53e3","ros \u63a5\u53e3\u5217\u8868","\u7f51\u7edc\u914d\u7f6e","Gauss6500 \u673a\u68b0\u81c2\u5f00\u53d1\u6587\u6863"],titleterms:{"\uff54opic":5,"gauss6500 ":7,"ros ":5,action:5,servic:5}})

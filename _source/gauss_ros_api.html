@@ -1,0 +1,337 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>ros 接口列表 &mdash; Gauss6500 机械臂开发文档 1.0 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="运动规划接口" href="gauss6_move_api.html" />
+    <link rel="prev" title="网络配置" href="network_config.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Gauss6500 机械臂开发文档
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="network_config.html">网络配置</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">ros 接口列表</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#topic">Ｔopic</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#">机械臂的关节状态接口</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#">硬件信息接口</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#">机器人的空间状态接口</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#">示教模式状态接口</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#service">Service</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#">示教模式切换接口</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#">校准接口</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#">重新校准</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#">机械臂停止接口</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#">更换工具接口</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#action">Action</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#">运动规划接口</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#">工具控制接口</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gauss6_move_api.html">运动规划接口</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gauss6_tool_api.html">工具控制接口</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gauss_robot_state_api.html">状态查看接口</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gauss_other_api.html">其他接口</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gauss_msgs_def.html">自定义消息</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Gauss6500 机械臂开发文档</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>ros 接口列表</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="ros">
+<span id="ros"></span><h1>ros 接口列表<a class="headerlink" href="#ros" title="永久链接至标题">¶</a></h1>
+<div class="section" id="topic">
+<span id="topic"></span><h2>Ｔopic<a class="headerlink" href="#topic" title="永久链接至标题">¶</a></h2>
+<div class="section" id="">
+<span id="id1"></span><h3>机械臂的关节状态接口<a class="headerlink" href="#" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li>接口： /joint_states</li>
+<li>ROS 接口类型： Topic</li>
+<li>接口内容： sensor_msgs/JointState</li>
+</ul>
+</div>
+<div class="section" id="">
+<span id="id2"></span><h3>硬件信息接口<a class="headerlink" href="#" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li>接口： /gauss/hardware_status</li>
+<li>ROS 接口类型： Topic</li>
+<li>接口内容： gauss_msgs/HardwareStatus</li>
+</ul>
+</div>
+<div class="section" id="">
+<span id="id3"></span><h3>机器人的空间状态接口<a class="headerlink" href="#" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li>接口： /gauss/robot_state</li>
+<li>ROS 接口类型： Topic</li>
+<li>接口内容： gauss_msgs/RobotState</li>
+</ul>
+</div>
+<div class="section" id="">
+<span id="id4"></span><h3>示教模式状态接口<a class="headerlink" href="#" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li>接口： /gauss/learning_mode</li>
+<li>ROS 接口类型： Topic</li>
+<li>接口内容：　std_msgs/Bool</li>
+</ul>
+</div>
+</div>
+<div class="section" id="service">
+<span id="service"></span><h2>Service<a class="headerlink" href="#service" title="永久链接至标题">¶</a></h2>
+<div class="section" id="">
+<span id="id5"></span><h3>示教模式切换接口<a class="headerlink" href="#" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li>接口： /gauss/activate_learning_mode</li>
+<li>ROS接口类型： Service</li>
+<li>接口内容： gauss_msgs/SetInt</li>
+</ul>
+</div>
+<div class="section" id="">
+<span id="id6"></span><h3>校准接口<a class="headerlink" href="#" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li>接口： /gauss/calibrate_motors</li>
+<li>ROS 接口类型： Service</li>
+<li>接口内容： gauss_msgs/SetInt</li>
+</ul>
+</div>
+<div class="section" id="">
+<span id="id7"></span><h3>重新校准<a class="headerlink" href="#" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li>接口：　/gauss/request_new_calibration</li>
+<li>ROS 接口类型： Service</li>
+<li>接口内容： gauss_msgs/SetInt</li>
+</ul>
+</div>
+<div class="section" id="">
+<span id="id8"></span><h3>机械臂停止接口<a class="headerlink" href="#" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li>接口： /gauss/commander/stop_command</li>
+<li>ROS接口类型： Service</li>
+<li>接口内容： ｓtd_srvs/SetBool</li>
+</ul>
+</div>
+<div class="section" id="">
+<span id="id9"></span><h3>更换工具接口<a class="headerlink" href="#" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li>接口： /gauss/change_tool</li>
+<li>ROS接口类型： Service</li>
+<li>接口内容： gauss_msgs/SetInt</li>
+</ul>
+</div>
+</div>
+<div class="section" id="action">
+<span id="action"></span><h2>Action<a class="headerlink" href="#action" title="永久链接至标题">¶</a></h2>
+<div class="section" id="">
+<span id="id10"></span><h3>运动规划接口<a class="headerlink" href="#" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li>接口： /gauss/commander/robot_action</li>
+<li>ROS 接口类型： Action</li>
+<li>接口内容： gauss_msgs/RobotMoveAction</li>
+</ul>
+</div>
+<div class="section" id="">
+<span id="id11"></span><h3>工具控制接口<a class="headerlink" href="#" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li>接口： /gauss/commander/robot_action</li>
+<li>ROS 接口类型： Action</li>
+<li>接口内容： gauss_msgs/RobotMoveAction</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="gauss6_move_api.html" class="btn btn-neutral float-right" title="运动规划接口" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="network_config.html" class="btn btn-neutral" title="网络配置" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Tonyrobotics
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
